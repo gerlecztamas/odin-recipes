@@ -1,0 +1,70 @@
+body {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    background-color: beige;
+}
+
+#main-title{
+    margin: 50px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.recipes li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:active{
+    color: black;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 400px;
+    height: auto;
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+img:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.first, .second{
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first{
+    margin: 50px 300px;
+}
+
+.description, .steps{
+    padding: 20px 40px;
+}
+
+.steps{
+    text-align: left;
+}
+
+.steps h3{
+    text-align: center;
+}
+
+.ingredients ul{
+    padding: 0px 40px;
+}
