@@ -4,6 +4,8 @@ body {
     background-color: beige;
 }
 
+/* Style of home and default properties */
+
 #main-title{
     margin: 50px;
 }
@@ -30,7 +32,22 @@ a:hover{
     color: rgba(0, 0, 0, 0.5);
 }
 
-img{
+.home{
+    margin: 75px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Style of food pages */
+
+.food{
     width: 400px;
     height: auto;
     display: block;
@@ -38,7 +55,7 @@ img{
     border-radius: 50%;
 }
 
-img:hover{
+.food:hover{
     transform: scale(1.25);
     transition: 0.5s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
